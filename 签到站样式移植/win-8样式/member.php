@@ -36,9 +36,8 @@ $title = $title_extra ? "用户中心 - 贴吧签到助手 - {$title_extra}" : '
 <!-- 开发不易，跪求各位大大放俺一条生路 -->
 <!-- 你可以在这加你自己的链接，但是麻烦保留下我的链接 Thanks -->
 <p class="copyright">贴吧签到助手 <?php echo VERSION; ?> - Designed by <a href="http://www.ikk.me" target="_blank">kookxiang</a>. 2014 &copy; <a href="http://www.kookxiang.com" target="_blank">KK's Laboratory</a> .<a href="http://go.ikk.me/donate" target="_blank">赞助开发</a>.样式by--<a href="http://tieba.baidu.com/home/main?id=4b52bec5976cd2bb703d&fr=userbar" target="_blank">九條一</a><?php if(getSetting('beian_no')) echo ' - <a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">'.getSetting('beian_no').'</a>'; ?></p>
-<p class="copyright"><a href="http://lixiandownload.jd-app.com" target="_blank">离线下载</a>丨<a href="http://xn--4gq04lpnm01d3vr.tk/drrr" target="_blank">Chat Online</a></p>
 <script src="<?php echo jquery_path(); ?>"></script>
-<script src="./template/default2/js/member.js?version=<?php echo VERSION; ?>"></script>
+<script src="../js/member.js?version=<?php echo VERSION; ?>"></script>
 <?php HOOK::run('member_footer'); ?>
 </div>
 </body>

@@ -1,6 +1,4 @@
-/* 本样式修改自Jerry的Win8-优雅蓝，原样式已不适用于模板系统
- 修改信息：目前版本支持模板系统，支持网站副标题功能
- 修改by：九条一*/
+/* 本样式基于Jerry的Win8-优雅蓝修改*/
 ::selection {
     color:white;
 	background:#5dc9f2;
@@ -246,7 +244,7 @@ input[type=email].form-error,input[type=password].form-error,input[type=text].fo
 	font-size:26px;
 }
 #page_login {
-	background:url(http://lixiandownload.jd-app.com/oneweekfriends.jpg) no-repeat 50% 50%;
+	background:url(/bg.php?.jpg) no-repeat 50% 50%;
 	background-size:100% 100%;
 }
 #page_login .center-box {
@@ -596,7 +594,7 @@ input[type=submit]:hover,button:hover,.btn:hover {
 	margin:5px 15px 15px;
 }
 #page_index {
-	background:url(http://lixiandownload.jd-app.com/oneweekfriends.jpg);
+	background:url(/bg.php?.jpg);
 	background-size:100% 100%;
 	background-attachment:fixed;
 	color:#fff;

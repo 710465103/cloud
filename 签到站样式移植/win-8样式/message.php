@@ -5,13 +5,14 @@ if(!defined('IN_KKFRAME')) exit();
 <html>
 <meta charset=utf-8>
 <title>系统消息</title>
-<meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+<embed src="地址" hidden="true" autostart="true" loop="true"><!--修改这里可添加登录/退出账号的音乐-->
 <style>
+<meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
 *{margin:0;padding:0}
 html,code{font:15px/22px arial,sans-serif}
 html{background:#fff;color:#222;padding:15px}
 body{margin:7% auto 0;max-width:390px;min-height:220px;padding:75px 0 15px}
-* > body{background:url(template/default2/style/msg_bg.png) 100% 5px no-repeat;padding-right:205px}
+* > body{background:url(http://oneweeksave.jd-app.com/style/msg_bg.png) 100% 5px no-repeat;padding-right:205px}
 p{margin:11px 0 22px;overflow:hidden}
 ins, ins a{color:#777;text-decoration:none;font-size:10px;}
 a img{border:0}

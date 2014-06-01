@@ -1,0 +1,1 @@
+<?php readfile( "./img/" . rand(1,x) . ".jpg" ); ?><!--rand(1,x)中的X按img文件夹内图片数量修改-->

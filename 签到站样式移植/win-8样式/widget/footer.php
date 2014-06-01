@@ -5,15 +5,15 @@ if(!defined('IN_KKFRAME')) exit();
 </div>
 <script src="<?php echo jquery_path(); ?>"></script>
 <script type="text/javascript">var formhash = '<?php echo $formhash; ?>';var version = '<?php echo VERSION; ?>';</script>
-<script src="./template/default2/js/kk_dropdown.js?version=<?php echo VERSION; ?>"></script>
+<script src="../js/kk_dropdown.js?version=<?php echo VERSION; ?>"></script>
 <?php
 if(defined('IN_ADMINCP')){
-	echo '<script src="./template/default2/js/admin.js?version='.VERSION.'"></script>';
+	echo '<script src="../js/admin.js?version='.VERSION.'"></script>';
 }else{
-	echo '<script src="./template/default2/js/main.js?version='.VERSION.'"></script>';
+	echo '<script src="../js/main.js?version='.VERSION.'"></script>';
 }
 ?>
-<script src="./template/default2/js/fwin.js?version=<?php echo VERSION; ?>"></script>
+<script src="../js/fwin.js?version=<?php echo VERSION; ?>"></script>
 <?php
 HOOK::run('page_footer_js');
 if(defined('NEW_VERSION')) echo '<script type="text/javascript">new_version = true</script>';

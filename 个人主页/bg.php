@@ -1,0 +1,1 @@
+<?php readfile( "./img/" . rand(1,*) . ".jpg" ); ?><!--rand(1,*)中*替换为img目录中图片数量，且img目录中图片名称应为1.jpg~*.jpg-->
